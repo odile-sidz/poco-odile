@@ -1,0 +1,16 @@
+PasswordGenerator
+
+DEFINE lower case characters [abcdefghijklmnopqrstuvwxyz]
+DEFINE upper case characters [ABCDEFGHIJKLMNOPQRSTUVWXYZ]
+DEFINE digits [0123456789]
+DEFINE spec. caharcters [ _ - ]
+DEFINE password lenght [8]
+
+INITIALIZE input button
+INITIALIZE output field
+
+GENERATE result (shuffle random value): lower case+upper case+digits+special character+lenght
+
+PRINT result
+
+END PasswordGenerator
